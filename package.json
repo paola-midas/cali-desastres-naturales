@@ -1,0 +1,44 @@
+{
+  "name": "catastrofes-naturales-cali",
+  "version": "1.0.0",
+  "description": "taller de visualización de datos sobre catastrofes ambientales en cali",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/netmidas/cali-natural-disasters.git"
+  },
+  "keywords": [
+    "dataviz",
+    "vanilla",
+    "cali",
+    "clima",
+    "webpack",
+    "leaflet",
+    "c3",
+    "npm"
+  ],
+  "author": "paola@netmidas.com",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/netmidas/cali-natural-disasters#readme",
+  "dependencies": {
+    "leaflet": "^1.3.1",
+    "normalize": "^0.3.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.5.0",
+    "webpack-dev-server": "^3.1.3",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
