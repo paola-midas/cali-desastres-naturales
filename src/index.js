@@ -1,8 +1,10 @@
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+import countiesJson from './data/barrios_cali.geo.json';
+
 
 // inicializar mapa
-const map = L.map('map').setView([39.74739, -105], 13);
+const map = L.map('map').setView([3.428405, -76.540564], 11);
 
 // añadir capa de de apariencia del mapa
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
@@ -13,8 +15,26 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
 	id: 'mapbox.light',
 }).addTo(map);
 
-// cargar archivo json que contiene definicion de los barrios de Cali
-loadJSON('../data/barrios_cali.geojson', (data) => {
-	// una vez la informacion este cargada, la añadimos como una capa al mapa
-	L.geoJSON(data).addTo(map);
-});
+// añadir capa con la definicion de los barrios en el mapa
+const countyStyle = {
+	color: '#ff7800',
+	weight: 5,
+	opacity: 0.65,
+};
+
+const geojsonMarkerOptions = {
+	radius: 8,
+	fillColor: '#ff7800',
+	color: '#000',
+	weight: 1,
+	opacity: 1,
+	fillOpacity: 0.8,
+};
+
+L.geoJSON(countiesJson, {
+	style: countyStyle,
+	pointToLayer(feature, latlng) {
+		return L.circleMarker(latlng, geojsonMarkerOptions);
+	},
+}).addTo(map);
+

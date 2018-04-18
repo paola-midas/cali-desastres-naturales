@@ -1,25 +1,110 @@
 const webpack = require('webpack');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
+const HtmlWebPackPlugin = require('html-webpack-plugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
 	target: 'web',
 	cache: true,
-	resolve: {
-		extensions: ['', '.html', '.js', '.json', '.scss', '.css'],
-	},
 	module: {
-		loaders: [
-			{ test: /\.js?$/, exclude: /node_modules/, loader: 'babel-loader' },
-			{ test: /\.css?$/, loader: 'style-loader!css-loader!' },
-			{ test: /\.(png|jpg)$/, loader: 'file-loader?name=images/[name].[ext]' },
+		rules: [
+			{
+				test: /\.(js|jsx)$/,
+				exclude: /node_modules/,
+				use: ['babel-loader'],
+			},
+			{
+				test: /\.js$/,
+				exclude: /node_modules/,
+				use: ['eslint-loader'],
+			},
+			{
+				test: /\.css$/,
+				loader: 'style-loader/url!file-loader',
+			},
+			{
+				test: /\.css$/,
+				exclude: /node_modules/,
+				use: [
+					{
+						loader: MiniCssExtractPlugin.loader,
+					},
+					{
+						loader: 'css-loader',
+						options: {
+							localIdentName: '[name]_[local]_[hash:base64]',
+							sourceMap: true,
+							minimize: true,
+						},
+					},
+					{
+						loader: 'postcss-loader',
+					},
+				],
+			},
+			{
+				test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)$/,
+				loader: 'file-loader?name=images/[name].[ext]',
+			},
+			{
+				test: /\.html$/,
+				exclude: /node_modules/,
+				use: [
+					{
+						loader: 'html-loader',
+						options: {
+							minimize: true,
+						},
+					},
+				],
+			},
 		],
 	},
+	resolve: {
+		extensions: ['*', '.js', 'json', '.css', '.scss', '.html'],
+		alias: {
+			leaflet_css: path.resolve(__dirname, '/node_modules/leaflet/dist/leaflet.css'),
+			'./images/layers.png$': path.resolve(__dirname, '../node_modules/leaflet/dist/images/layers.png'),
+			'./images/layers-2x.png$': path.resolve(__dirname, '../node_modules/leaflet/dist/images/layers-2x.png'),
+			'./images/marker-icon.png$': path.resolve(__dirname, '../node_modules/leaflet/dist/images/marker-icon.png'),
+			'./images/marker-icon-2x.png$': path.resolve(__dirname, '../node_modules/leaflet/dist/images/marker-icon-2x.png'),
+			'./images/marker-shadow.png$': path.resolve(__dirname, '../node_modules/leaflet/dist/images/marker-shadow.png'),
+		},
+	},
+	optimization: {
+		minimizer: [
+			new UglifyJsPlugin({
+				cache: true,
+				parallel: true,
+				sourceMap: true,
+			}),
+		],
+		splitChunks: {
+			cacheGroups: {
+				styles: {
+					name: 'styles',
+					test: /\.css$/,
+					chunks: 'all',
+					enforce: true,
+				},
+			},
+		},
+	},
 	plugins: [
-		new webpack.optimize.CommonsChunkPlugin('common', 'common.js'),
-		new HtmlWebpackPlugin({
-			inject: true,
-			template: 'src/index.html',
+		new HtmlWebPackPlugin({
+			template: './src/index.html',
+			filename: './index.html',
 		}),
-		new webpack.NoErrorsPlugin(),
+		new webpack.HotModuleReplacementPlugin(),
+		new MiniCssExtractPlugin({
+			filename: '[name].css',
+		}),
+	],
+	devtool: 'eval-source-map',
+	externals: [
+		{
+			xmlhttprequest: 'XMLHttpRequest',
+		},
 	],
 };
