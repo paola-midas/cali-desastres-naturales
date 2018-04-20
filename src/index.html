@@ -7,24 +7,44 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="manifest" href="site.webmanifest">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     </head>
     <body>
-        <header>
-       </header>
-       <article>
-         <style>
-            body {
-                padding: 0;
-                margin: 0;
-            }
-            .leaflet-container {
-                height: 600px;
-                widows: 800px;
-            }
-         </style>
-         <div id="map"></div>
-       </article>
-       <footer>
-       </footer>
+        <div class="ui stacked segments">
+            <div class="viz-container grid grid-pad">
+                <header class="ui col-1-1">
+                    <div class="viz-title">
+                        <h1 class="ui header">
+                            Catastrofes Ambientales
+                            <div class="sub header">
+                                Cali Enero - Mayo 2017
+                            </div>
+                        </h1>
+                    </div>
+                </header>
+                <article class="ui basic segments">
+                    <div id="map" class="map-container"></div>
+                </article>
+                <footer id="viz-footer" class="col-1-1">
+                    <!-- Social Sharing tools -->
+                    <h4 id="viz-share-container" style="margin-top: 15px;" class="ui horizontal divider header">
+                        <div id="social-share" />
+                    </h4>
+                    <div class="ui middle aligned two column centered grid viz-credits">
+                        <div class="row">
+                            <div class="column right aligned">
+                                <span class="item">Developed by</span>
+                            </div>
+                            <div class="column dv-logo">
+                                <a href="http://datapico.com/" target="_blank" rel="author">
+                                <img src="data:image/webp;base64,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" alt="Developed by Netmidas" >
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
     </body>
 </html>

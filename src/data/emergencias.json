@@ -1,0 +1,563 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "9q35-6pz2",
+      "name" : "Emergencias acontecidas en la ciudad de Cali 2017",
+      "attribution" : "Alcaldía Municipal de Santiago de Cali",
+      "averageRating" : 0,
+      "category" : "Ambiente y Desarrollo Sostenible",
+      "createdAt" : 1497362867,
+      "description" : "Sitios del Municipio de Santiago de Cali, en donde la Secretaría de Gestión del Riesgo de Emergencias y Desastres tuvo presencia frente a un Evento provocado por la Naturaleza u ocasionado por el hombre - Año 2017",
+      "displayType" : "table",
+      "downloadCount" : 19,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1506973477,
+      "licenseId" : "CC_40_BY_SA",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 26923176,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1506973421,
+      "publicationGroup" : 14263079,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1506973418,
+      "rowsUpdatedBy" : "tbt9-998a",
+      "tableId" : 14503332,
+      "totalTimesRated" : 0,
+      "viewCount" : 112,
+      "viewLastModified" : 1509021727,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 322993214,
+        "name" : "Barrio",
+        "dataTypeName" : "text",
+        "fieldName" : "barrio",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 48825231,
+        "width" : 172,
+        "cachedContents" : {
+          "largest" : "Vergel",
+          "non_null" : 42,
+          "null" : 0,
+          "top" : [ {
+            "item" : "El Dorado",
+            "count" : 20
+          }, {
+            "item" : "Terron Colorado / Alto Aguacatal",
+            "count" : 19
+          }, {
+            "item" : "Aguablanca",
+            "count" : 18
+          }, {
+            "item" : "Las Orquideas",
+            "count" : 17
+          }, {
+            "item" : "Los Lagos",
+            "count" : 16
+          }, {
+            "item" : "Siloe",
+            "count" : 15
+          }, {
+            "item" : "Tequendama",
+            "count" : 14
+          }, {
+            "item" : "Guaduales",
+            "count" : 13
+          }, {
+            "item" : "El Cortijo",
+            "count" : 12
+          }, {
+            "item" : "Belen",
+            "count" : 11
+          }, {
+            "item" : "Puerto Nuevo",
+            "count" : 10
+          }, {
+            "item" : "Brisas Del Cauca",
+            "count" : 9
+          }, {
+            "item" : "El Hormiguero",
+            "count" : 8
+          }, {
+            "item" : "La Finca",
+            "count" : 7
+          }, {
+            "item" : "La Playita",
+            "count" : 6
+          }, {
+            "item" : "Navarro",
+            "count" : 5
+          }, {
+            "item" : "Playa Renaciente",
+            "count" : 4
+          }, {
+            "item" : "Floralia-Jarillon",
+            "count" : 3
+          }, {
+            "item" : "Pizamos 3",
+            "count" : 2
+          }, {
+            "item" : "Petecuy",
+            "count" : 1
+          } ],
+          "smallest" : "Aguablanca"
+        },
+        "format" : { }
+      }, {
+        "id" : 322993215,
+        "name" : "Fecha Evento",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "fecha_evento",
+        "position" : 2,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 48825232,
+        "width" : 244,
+        "cachedContents" : {
+          "largest" : "2017-05-11T00:00:00",
+          "non_null" : 42,
+          "null" : 0,
+          "top" : [ {
+            "item" : "2017-01-01T00:00:00",
+            "count" : 20
+          }, {
+            "item" : "2017-01-02T00:00:00",
+            "count" : 19
+          }, {
+            "item" : "2017-01-03T00:00:00",
+            "count" : 18
+          }, {
+            "item" : "2017-01-06T00:00:00",
+            "count" : 17
+          }, {
+            "item" : "2017-01-08T00:00:00",
+            "count" : 16
+          }, {
+            "item" : "2017-01-18T00:00:00",
+            "count" : 15
+          }, {
+            "item" : "2017-01-21T00:00:00",
+            "count" : 14
+          }, {
+            "item" : "2017-01-23T00:00:00",
+            "count" : 13
+          }, {
+            "item" : "2017-01-27T00:00:00",
+            "count" : 12
+          }, {
+            "item" : "2017-02-10T00:00:00",
+            "count" : 11
+          }, {
+            "item" : "2017-02-17T00:00:00",
+            "count" : 10
+          }, {
+            "item" : "2017-03-07T00:00:00",
+            "count" : 9
+          }, {
+            "item" : "2017-03-12T00:00:00",
+            "count" : 8
+          }, {
+            "item" : "2017-03-14T00:00:00",
+            "count" : 7
+          }, {
+            "item" : "2017-03-20T00:00:00",
+            "count" : 6
+          }, {
+            "item" : "2017-03-26T00:00:00",
+            "count" : 5
+          }, {
+            "item" : "2017-03-31T00:00:00",
+            "count" : 4
+          }, {
+            "item" : "2017-04-01T00:00:00",
+            "count" : 3
+          }, {
+            "item" : "2017-04-05T00:00:00",
+            "count" : 2
+          }, {
+            "item" : "2017-04-06T00:00:00",
+            "count" : 1
+          } ],
+          "smallest" : "2017-01-01T00:00:00"
+        },
+        "format" : { }
+      }, {
+        "id" : 322993216,
+        "name" : "Mes",
+        "dataTypeName" : "text",
+        "fieldName" : "mes",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 48825233,
+        "width" : 136,
+        "cachedContents" : {
+          "largest" : "Mayo",
+          "non_null" : 42,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Enero",
+            "count" : 20
+          }, {
+            "item" : "Febrero",
+            "count" : 19
+          }, {
+            "item" : "Marzo",
+            "count" : 18
+          }, {
+            "item" : "Abril",
+            "count" : 17
+          }, {
+            "item" : "Mayo",
+            "count" : 16
+          } ],
+          "smallest" : "Abril"
+        },
+        "format" : { }
+      }, {
+        "id" : 322993217,
+        "name" : "Comuna",
+        "dataTypeName" : "number",
+        "fieldName" : "comuna",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 48825234,
+        "width" : 172,
+        "cachedContents" : {
+          "largest" : "52",
+          "non_null" : 42,
+          "average" : "14.59523809523810",
+          "null" : 0,
+          "top" : [ {
+            "item" : "10",
+            "count" : 20
+          }, {
+            "item" : "1",
+            "count" : 19
+          }, {
+            "item" : "11",
+            "count" : 18
+          }, {
+            "item" : "14",
+            "count" : 17
+          }, {
+            "item" : "13",
+            "count" : 16
+          }, {
+            "item" : "20",
+            "count" : 15
+          }, {
+            "item" : "19",
+            "count" : 14
+          }, {
+            "item" : "6",
+            "count" : 13
+          }, {
+            "item" : "7",
+            "count" : 12
+          }, {
+            "item" : "52",
+            "count" : 11
+          }, {
+            "item" : "3",
+            "count" : 10
+          }, {
+            "item" : "21",
+            "count" : 9
+          }, {
+            "item" : "15",
+            "count" : 8
+          }, {
+            "item" : "12",
+            "count" : 7
+          }, {
+            "item" : "18",
+            "count" : 6
+          }, {
+            "item" : "51",
+            "count" : 5
+          } ],
+          "smallest" : "1",
+          "sum" : "613"
+        },
+        "format" : { }
+      }, {
+        "id" : 322993447,
+        "name" : "Incendio",
+        "dataTypeName" : "number",
+        "fieldName" : "incendio",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 48825235,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "1",
+          "non_null" : 4,
+          "average" : "1",
+          "null" : 38,
+          "top" : [ {
+            "item" : "1",
+            "count" : 20
+          } ],
+          "smallest" : "1",
+          "sum" : "4"
+        },
+        "format" : {
+          "displayStyle" : "plain",
+          "align" : "left"
+        }
+      }, {
+        "id" : 322993600,
+        "name" : "Inundacion",
+        "dataTypeName" : "number",
+        "fieldName" : "inundacion",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 48825236,
+        "width" : 220,
+        "cachedContents" : {
+          "largest" : "1",
+          "non_null" : 22,
+          "average" : "1",
+          "null" : 20,
+          "top" : [ {
+            "item" : "1",
+            "count" : 20
+          } ],
+          "smallest" : "1",
+          "sum" : "22"
+        },
+        "format" : {
+          "displayStyle" : "plain",
+          "align" : "left"
+        }
+      }, {
+        "id" : 322993751,
+        "name" : "Deslizamientos",
+        "dataTypeName" : "number",
+        "fieldName" : "deslizamientos",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 48825237,
+        "width" : 268,
+        "cachedContents" : {
+          "largest" : "1",
+          "non_null" : 13,
+          "average" : "1",
+          "null" : 29,
+          "top" : [ {
+            "item" : "1",
+            "count" : 20
+          } ],
+          "smallest" : "1",
+          "sum" : "13"
+        },
+        "format" : {
+          "displayStyle" : "plain",
+          "align" : "left"
+        }
+      }, {
+        "id" : 322993904,
+        "name" : "Vendaval",
+        "dataTypeName" : "number",
+        "fieldName" : "vendaval",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 48825238,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "1",
+          "non_null" : 3,
+          "average" : "1",
+          "null" : 39,
+          "top" : [ {
+            "item" : "1",
+            "count" : 20
+          } ],
+          "smallest" : "1",
+          "sum" : "3"
+        },
+        "format" : {
+          "displayStyle" : "plain",
+          "align" : "left"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution | Share Alike 4.0 International",
+        "logoUrl" : "images/licenses/cc30bysa.png",
+        "termsLink" : "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "custom_fields" : {
+          "Información de la Entidad" : {
+            "Municipio" : "Cali",
+            "Nombre de la Entidad" : "Alcaldía Municipal de Santiago de Cali",
+            "Orden" : "Territorial",
+            "Sector" : "Salud y Protección Social",
+            "Área o dependencia" : "Secretaria de Gestión del Riesgo de Emergencias y Desastres",
+            "Departamento" : "Valle del Cauca"
+          },
+          "Información de Datos" : {
+            "Cobertura Geográfica" : "Municipal",
+            "Idioma" : "Español",
+            "Frecuencia de Actualización" : "Semestral",
+            "Fecha Emisión (aaaa-mm-dd)" : "2014-06-13"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "tbt9-998a",
+        "displayName" : "Alcaldía Municipal de Santiago de Cali",
+        "profileImageUrlLarge" : "/api/users/tbt9-998a/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/tbt9-998a/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/tbt9-998a/profile_images/TINY",
+        "screenName" : "Alcaldía Municipal de Santiago de Cali",
+        "type" : "interactive",
+        "flags" : [ "siteMember" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "tbt9-998a",
+        "displayName" : "Alcaldía Municipal de Santiago de Cali",
+        "profileImageUrlLarge" : "/api/users/tbt9-998a/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/tbt9-998a/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/tbt9-998a/profile_images/TINY",
+        "screenName" : "Alcaldía Municipal de Santiago de Cali",
+        "type" : "interactive",
+        "flags" : [ "siteMember" ]
+      },
+      "tags" : [ "emergencia", "incendio", "deslizamiento", "inundación", "vendaval" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "2D18269A-A00C-49D1-94E7-F7262E82E87D", 1, 1497362870, "1010358", 1506973191, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825236\" : \"-\",\n    \"48825237\" : \"-\"\n  }\n}", "El Dorado", "2017-01-01T00:00:00", "Enero", "10", "1", null, null, null ]
+, [ 2, "13346C35-C72C-415F-BBB1-3661C9D94479", 2, 1497362870, "1010358", 1506973193, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825236\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Terron Colorado / Alto Aguacatal", "2017-01-01T00:00:00", "Enero", "1", null, null, "1", null ]
+, [ 3, "EA36EC00-61BC-4196-ACDF-374D9BA99AD3", 3, 1497362870, "1010358", 1506973196, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825236\" : \"-\",\n    \"48825237\" : \"-\"\n  }\n}", "Aguablanca", "2017-01-02T00:00:00", "Enero", "11", "1", null, null, null ]
+, [ 4, "65387D64-C8C9-421D-8A4A-7DE12051D772", 4, 1497362870, "1010358", 1506973198, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Las Orquideas", "2017-01-02T00:00:00", "Enero", "14", null, "1", null, null ]
+, [ 5, "19B70723-145E-4BC1-AE63-E555FCC9184A", 5, 1497362870, "1010358", 1506973201, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825236\" : \"-\",\n    \"48825237\" : \"-\"\n  }\n}", "Los Lagos", "2017-01-02T00:00:00", "Enero", "13", "1", null, null, null ]
+, [ 13, "3D4E6E95-B850-47ED-B113-F1B5F0B5B128", 13, 1497362870, "1010358", 1506973223, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Brisas Del Cauca", "2017-01-23T00:00:00", "Enero", "7", null, "1", null, null ]
+, [ 14, "BFF6C338-A9ED-494F-A7A1-3E3C7B00DF1A", 14, 1497362870, "1010358", 1506973225, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "El Hormiguero", "2017-01-23T00:00:00", "Enero", "52", null, "1", null, null ]
+, [ 15, "D318DE80-FED6-4E57-879D-055E6A5CC8ED", 15, 1497362870, "1010358", 1506973228, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "La Finca", "2017-01-23T00:00:00", "Enero", "7", null, "1", null, null ]
+, [ 16, "065C8CF0-1C6D-48E2-8875-FC4AAACBB04B", 16, 1497362870, "1010358", 1506973230, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "La Playita", "2017-01-23T00:00:00", "Enero", "7", null, "1", null, null ]
+, [ 17, "82B4ED34-31E6-4BEF-816C-581F9AAD0A87", 17, 1497362870, "1010358", 1506973234, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Navarro", "2017-01-23T00:00:00", "Enero", "3", null, "1", null, null ]
+, [ 18, "23F71CB8-3EA2-4A27-B472-DB244856BD37", 18, 1497362870, "1010358", 1506973236, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Playa Renaciente", "2017-01-23T00:00:00", "Enero", "7", null, "1", null, null ]
+, [ 29, "ADBB1937-0601-4428-819B-C0F637D9149B", 29, 1497362870, "1010358", 1506973266, "1010358", "{\n  \"invalidCells\" : {\n    \"48825236\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Ciudad Cordoba", "2017-03-31T00:00:00", "Marzo", "15", null, null, null, "1" ]
+, [ 30, "363352DC-76CA-40C7-9868-B694ACE6091F", 30, 1497362870, "1010358", 1506973268, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Llano Verde", "2017-04-01T00:00:00", "Abril", "15", null, "1", null, null ]
+, [ 6, "ECF70584-FB74-4593-9B1E-3DCC4DA589C4", 6, 1497362870, "1010358", 1506973205, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825236\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Siloe", "2017-01-02T00:00:00", "Enero", "20", null, null, "1", null ]
+, [ 7, "040A41F7-EC30-4EDD-A6FF-892F3C8CD8A8", 7, 1497362870, "1010358", 1506973207, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Tequendama", "2017-01-02T00:00:00", "Enero", "19", null, "1", null, null ]
+, [ 8, "5A10C85D-C083-4449-8141-29E7772DCD61", 8, 1497362870, "1010358", 1506973209, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Guaduales", "2017-01-03T00:00:00", "Enero", "6", null, "1", null, null ]
+, [ 9, "5CE6B528-DE5C-402D-94C2-698467F85984", 9, 1497362870, "1010358", 1506973212, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825236\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "El Cortijo", "2017-01-06T00:00:00", "Enero", "20", null, null, "1", null ]
+, [ 10, "E8B73D40-B072-4420-881B-6972392ABA5F", 10, 1497362870, "1010358", 1506973215, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825236\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Belen", "2017-01-08T00:00:00", "Enero", "20", null, null, "1", null ]
+, [ 11, "CAAAFE5C-DCC7-4DDC-846B-CA93A2ABBFB0", 11, 1497362870, "1010358", 1506973218, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Tequendama", "2017-01-18T00:00:00", "Enero", "19", null, "1", null, null ]
+, [ 12, "C906A6AC-D317-40DC-B6CC-5347FF70CE79", 12, 1497362870, "1010358", 1506973220, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Puerto Nuevo", "2017-01-21T00:00:00", "Enero", "7", null, "1", null, null ]
+, [ 19, "B6D6D392-0A53-47D7-B102-02DDC9CE7322", 19, 1497362870, "1010358", 1506973238, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Floralia-Jarillon", "2017-01-27T00:00:00", "Enero", "6", null, "1", null, null ]
+, [ 20, "E1AEC291-0CD0-4EE3-80D5-CD5F23B2569A", 20, 1497362870, "1010358", 1506973241, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825236\" : \"-\",\n    \"48825237\" : \"-\"\n  }\n}", "Pizamos 3", "2017-02-10T00:00:00", "Febrero", "21", "1", null, null, null ]
+, [ 21, "9C44945D-37DE-4E91-BA99-09C00E5E210B", 21, 1497362870, "1010358", 1506973243, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Petecuy", "2017-02-17T00:00:00", "Febrero", "6", null, "1", null, null ]
+, [ 22, "350D0D93-8128-44BC-A115-5A453906AE68", 22, 1497362870, "1010358", 1506973246, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825236\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Pizamos 3", "2017-03-07T00:00:00", "Marzo", "21", null, null, "1", null ]
+, [ 23, "4C77A55E-3829-487E-B42B-DE5085DAFCD4", 23, 1497362870, "1010358", 1506973248, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825236\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Terron Colorado / Alto Aguacatal", "2017-03-07T00:00:00", "Marzo", "1", null, null, "1", null ]
+, [ 24, "F0E892DB-6FAB-44FB-AD58-606414E23CBA", 24, 1497362870, "1010358", 1506973251, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825236\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Vergel", "2017-03-07T00:00:00", "Marzo", "13", null, null, "1", null ]
+, [ 25, "A1A1774A-F94C-43C4-A127-F45D4DCDA3D4", 25, 1497362870, "1010358", 1506973254, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825236\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Siloe / Casa De Piedra", "2017-03-12T00:00:00", "Marzo", "20", null, null, "1", null ]
+, [ 26, "4B08833D-5328-4B8E-91CE-8578B5DCFE9C", 26, 1497362870, "1010358", 1506973257, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825236\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Siloe", "2017-03-14T00:00:00", "Marzo", "20", null, null, "1", null ]
+, [ 27, "614056D8-210B-4AA3-82B9-B5E5789AF2DA", 27, 1497362870, "1010358", 1506973259, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "La Fragua", "2017-03-20T00:00:00", "Marzo", "7", null, "1", null, null ]
+, [ 28, "E9D9FD80-C287-452D-8465-E2F91D70482E", 28, 1497362870, "1010358", 1506973263, "1010358", "{\n  \"invalidCells\" : {\n    \"48825236\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Llano Verde", "2017-03-26T00:00:00", "Marzo", "15", null, null, null, "1" ]
+, [ 31, "46DDA142-A6DC-4701-8526-C51711393936", 31, 1497362870, "1010358", 1506973271, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Retiro", "2017-04-05T00:00:00", "Abril", "15", null, "1", null, null ]
+, [ 32, "B53039CA-E5F1-4141-B9D5-BB86AD302F22", 32, 1497362870, "1010358", 1506973274, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825236\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Siloe", "2017-04-05T00:00:00", "Abril", "20", null, null, "1", null ]
+, [ 33, "47E09DEF-ACC4-4D59-9C23-D7C43706D1AC", 33, 1497362870, "1010358", 1506973276, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Camilo Desepaz", "2017-04-06T00:00:00", "Abril", "21", null, "1", null, null ]
+, [ 34, "AF55B287-6A87-4758-8274-CEEC13DBC618", 34, 1497362870, "1010358", 1506973278, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Mojica 1", "2017-04-06T00:00:00", "Abril", "15", null, "1", null, null ]
+, [ 35, "6D4B6127-A6F3-4AF9-8A84-6553E8390A74", 35, 1497362870, "1010358", 1506973280, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825236\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Siloe", "2017-04-17T00:00:00", "Abril", "20", null, null, "1", null ]
+, [ 36, "5E0F7B2C-8AC4-4E38-A069-163BD0795963", 36, 1497362870, "1010358", 1506973283, "1010358", "{\n  \"invalidCells\" : {\n    \"48825236\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Nueva Floresta", "2017-04-17T00:00:00", "Abril", "12", null, null, null, "1" ]
+, [ 37, "168C00A3-5E03-4FA9-843A-413EBF4E38B1", 37, 1497362870, "1010358", 1506973288, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825236\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Napoles", "2017-05-05T00:00:00", "Mayo", "18", null, null, "1", null ]
+, [ 38, "D8BF6814-C6AD-4173-A0EA-4253F0402426", 38, 1497362870, "1010358", 1506973290, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825236\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Palmas 2", "2017-05-05T00:00:00", "Mayo", "18", null, null, "1", null ]
+, [ 39, "385785C7-42EC-4347-BB59-7CCF882F819F", 39, 1497362870, "1010358", 1506973293, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "La Finca", "2017-05-11T00:00:00", "Mayo", "7", null, "1", null, null ]
+, [ 40, "0787DA66-3CD0-433E-A852-CC907A0FB723", 40, 1497362870, "1010358", 1506973296, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Puerto Nuevo", "2017-05-11T00:00:00", "Mayo", "7", null, "1", null, null ]
+, [ 41, "0C4168BA-66B7-4275-9E3A-DB4090012FAF", 41, 1497362870, "1010358", 1506973298, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Floralia-Jarillon", "2017-05-11T00:00:00", "Mayo", "6", null, "1", null, null ]
+, [ 42, "F89BDA11-30CA-4916-A962-389B5EDF5F43", 42, 1497362870, "1010358", 1506973302, "1010358", "{\n  \"invalidCells\" : {\n    \"48825238\" : \"-\",\n    \"48825237\" : \"-\",\n    \"48825235\" : \"-\"\n  }\n}", "Navarro", "2017-05-11T00:00:00", "Mayo", "51", null, "1", null, null ]
+ ]
+}

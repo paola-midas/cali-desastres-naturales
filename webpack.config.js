@@ -62,7 +62,7 @@ module.exports = {
 		],
 	},
 	resolve: {
-		extensions: ['*', '.js', 'json', '.css', '.scss', '.html'],
+		extensions: ['*', '.js', 'json', '.css', '.html'],
 		alias: {
 			leaflet_css: path.resolve(__dirname, '/node_modules/leaflet/dist/leaflet.css'),
 			'./images/layers.png$': path.resolve(__dirname, '../node_modules/leaflet/dist/images/layers.png'),
@@ -102,9 +102,4 @@ module.exports = {
 		}),
 	],
 	devtool: 'eval-source-map',
-	externals: [
-		{
-			xmlhttprequest: 'XMLHttpRequest',
-		},
-	],
 };

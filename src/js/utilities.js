@@ -1,6 +1,6 @@
 import { XMLHttpRequest } from 'xmlhttprequest';
 
-export default function loadJSON(path, callback) {
+function loadJSON(path, callback) {
 	const xobj = new XMLHttpRequest();
 	xobj.overrideMimeType('application/json');
 	xobj.open('GET', path, true);
@@ -11,3 +11,9 @@ export default function loadJSON(path, callback) {
 	};
 	xobj.send(null);
 }
+
+function range(start, end) {
+	Array.from(Array(end + 1).keys()).slice(start);
+}
+
+export default { loadJSON, range };
