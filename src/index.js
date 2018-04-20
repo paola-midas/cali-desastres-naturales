@@ -118,7 +118,7 @@ const countyStyle = (feature) => {
 const showPopup = (feature, layer) => {
 	const { comuna } = feature.properties;
 	const info = infoComunas[comuna];
-	let content = `<h1>${feature.properties.barrio}</h1>
+	let content = `<h4>${feature.properties.barrio}</h4>
 					<ul>
 					<li><strong>Comuna:</strong> ${comuna}</li>`;
 

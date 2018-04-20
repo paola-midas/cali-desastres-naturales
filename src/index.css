@@ -107,3 +107,7 @@ ul{
 li{
     list-style: none;
 }
+
+.leaflet-popup-content{
+    min-width: 100px;
+}
